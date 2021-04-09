@@ -1,0 +1,107 @@
+body {
+  font-size: 16px;
+  font-family: Karla;
+  background-color: hsl(204, 43%, 93%);
+}
+.main-container {
+  margin-left: 20%;
+  margin-top: 5%;
+  width: 10%;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 250px 270px;
+}
+
+.item1 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 1.5rem;
+  grid-row: 1;
+  grid-column: 1 / span all;
+  background-color: white;
+}
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+.access {
+  line-height: 30px;
+}
+.item2 {
+  border-bottom-left-radius: 10px;
+  background-color: hsl(179, 62%, 43%);
+  padding-left: 10%;
+  padding-top: 7%;
+}
+
+.item2-h2 {
+  color: hsl(204, 43%, 93%);
+}
+
+.subscription {
+  color: hsl(204, 43%, 93%);
+}
+
+h2 {
+  color: hsl(204, 43%, 93%);
+}
+span {
+  color: hsl(218, 22%, 67%);
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.item3 {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(179, 40%, 57%);
+  border-bottom-right-radius: 10px;
+}
+
+.flex-h3 {
+  color: hsl(204, 43%, 93%);
+  margin-left: 15%;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 22px;
+}
+.flex-cell1 {
+  margin-top: 5%;
+  border-bottom-right-radius: 10px;
+  background-color: hsl(179, 40%, 57%);
+  flex-basis: 70%;
+  color: hsl(204, 43%, 93%);
+}
+
+.item4 {
+  margin-top: 10%;
+  margin-left: 20%;
+  position: relative;
+  background-color: hsl(71, 73%, 54%);
+  width: 50%;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+.item4:hover {
+  cursor: pointer;
+}
+
+.button {
+  color: hsl(204, 43%, 93%);
+  padding-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.yellowH3 {
+  color: hsl(71, 73%, 54%);
+  padding-top: 15px;
+}
+
+h3 {
+  color: hsl(218, 22%, 67%);
+}
